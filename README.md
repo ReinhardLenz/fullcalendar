@@ -23,6 +23,7 @@ and insert your database credentials. Create folder structure as descripbed belo
 
 To increase safety, the structure of the folder arranged, that the connect_DB.php is in a config folder outside of fullcalendar folder.
 
+## Directory structure
 
     ├── www/
 
