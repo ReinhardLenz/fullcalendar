@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Salattu Hakemisto"
-AuthUserFile /var/www/10/raikkulenz/sites/raikkulenz.kapsi.fi/admin/.htpasswd_7
-
-require valid-user
