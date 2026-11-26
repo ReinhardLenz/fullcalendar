@@ -23,27 +23,29 @@ and insert your database credentials.
 To increase safety, the structure of the folder arranged, that the connect_DB.php is in a config folder outside of fullcalendar folder.
 
 
-├── www/
-   ├── templates/
-        ├── header.php
+    ├── www/
 
-        ├── footer.php
+    ├── templates/
 
-    └── calendar/
+            ├── header.php
 
-        ├── config/
+            ├── footer.php
 
-            ├── .connect_DB.php
+        └── calendar/
 
-        └── fullcalendar/
+            ├── config/
 
-            ├── .git
+                ├── .connect_DB.php
 
-            ├── README.md
+            └── fullcalendar/
 
-            ├── calendar.php
-            
-            └── ...
+                ├── .git
+
+                ├── README.md
+
+                ├── calendar.php
+                
+                └── ...
 
 Source code taken from https://github.com/cturpin/FullCalendar-Ajax-Php-Mysql and changed.
 
