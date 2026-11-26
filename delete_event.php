@@ -1,10 +1,15 @@
 <?php
 $id = $_POST['id'];
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=fullcalendar', 'root', 'root');
+    require_once('../config/connect_DB.php');
+    $dsn='mysql:host='.$host.';dbname='.$dbname;
+
+
+    $bdd = new PDO($dsn,$user,$password);;
 } catch (Exception $e) {
-    exit('Unable to connect to database.');
+    exit($e);
 }
+
 $sql = "DELETE from events WHERE id=" . $id;
 $q = $bdd->prepare($sql);
 $q->execute();

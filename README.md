@@ -17,6 +17,9 @@ title VARCHAR(100),
 start DATE,
 end DATE);
 
+Copy connect_DB.example.php to connect_DB.php
+and insert your database credentials.
+
 Source code taken from https://github.com/cturpin/FullCalendar-Ajax-Php-Mysql and changed.
 
 Used http://fullcalendar.io/ fullcalendar javascript library.

@@ -6,7 +6,11 @@ $end = $_POST['end'];
 
 // connection to the database
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=fullcalendar', 'root', 'root');
+    require_once('../config/connect_DB.php');
+    $dsn='mysql:host='.$host.';dbname='.$dbname;
+
+
+    $bdd = new PDO($dsn,$user,$password);;
 } catch (Exception $e) {
     exit($e);
 }
