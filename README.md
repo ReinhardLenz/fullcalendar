@@ -24,9 +24,7 @@ To increase safety, the structure of the folder arranged, that the connect_DB.ph
 
 
 ├── www/
-
    ├── templates/
-
         ├── header.php
 
         ├── footer.php
