@@ -35,7 +35,7 @@ To increase safety, the structure of the folder arranged, that the connect_DB.ph
 
                 ├── config/
 
-                    ├── .connect_DB.php
+                    ├── connect_DB.php
 
                 └── fullcalendar/
 
