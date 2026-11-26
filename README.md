@@ -25,27 +25,27 @@ To increase safety, the structure of the folder arranged, that the connect_DB.ph
 
     ├── www/
 
-    ├── templates/
+        ├── templates/
 
-            ├── header.php
+                ├── header.php
 
-            ├── footer.php
+                ├── footer.php
 
-        └── calendar/
+            └── calendar/
 
-            ├── config/
+                ├── config/
 
-                ├── .connect_DB.php
+                    ├── .connect_DB.php
 
-            └── fullcalendar/
+                └── fullcalendar/
 
-                ├── .git
+                    ├── .git
 
-                ├── README.md
+                    ├── README.md
 
-                ├── calendar.php
-                
-                └── ...
+                    ├── calendar.php
+                    
+                    └── ...
 
 Source code taken from https://github.com/cturpin/FullCalendar-Ajax-Php-Mysql and changed.
 
