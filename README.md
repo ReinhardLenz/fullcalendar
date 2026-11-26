@@ -20,6 +20,17 @@ end DATE);
 Copy connect_DB.example.php to connect_DB.php
 and insert your database credentials.
 
+To increase safety, the structure of the folder arranged, that the connect_DB.php is in a config folder outside of fullcalendar folder.
+
+├── .git                
+├── config/
+    ├── .connect_DB.php
+└── fullcalendar/
+    ├── .git            
+    ├── README.md
+    ├── index.html
+    └── ...
+
 Source code taken from https://github.com/cturpin/FullCalendar-Ajax-Php-Mysql and changed.
 
 Used http://fullcalendar.io/ fullcalendar javascript library.
